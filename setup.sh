@@ -86,13 +86,13 @@ if $error; then
     echo "> [sudo] apt-get install python-pyaudio python3-pyaudio"
     echo "On Mac do"
     echo "> brew install portaudio"
+    echo "For more details go to the below link:-"
+    echo "https://people.csail.mit.edu/hubert/pyaudio/"
     echo "Afterward re-run this setup.sh"
     echo "============================================================="
     echo
     echo
     echo
 fi
-
-
 
 sudo cp jarvis /usr/local/bin
