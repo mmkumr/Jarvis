@@ -1,14 +1,12 @@
 from plugin import plugin
 import os
 
-
 voice_control_installed = True
 try:
     import speech_recognition as sr
     import pyaudio
 except ModuleNotFoundError:
     voice_control_installed = False
-
 
 if voice_control_installed:
     requirements = []
